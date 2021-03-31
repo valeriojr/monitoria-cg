@@ -4,12 +4,11 @@
 #define WINDOW_WIDTH 640
 #define WINDOW_HEIGHT 480
 
-/*
-Aqui faremos as operacoes de renderizacao
-*/
-void display()
-{
+
+void display(){
+    glutSwapBuffers();
 }
+
 
 int main(int argc, char** argv)
 {
